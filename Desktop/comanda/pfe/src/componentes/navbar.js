@@ -10,6 +10,7 @@ function NavBarCustom() {
         <Navbar.Brand href="#home">Comanda</Navbar.Brand>
           <Nav className="me-auto">
           <Link to="/login">Login</Link>\n
+          <Link to="/registro">Registro</Link>\n
           <Link to="/about">About</Link>\n
           <Link to="/info">Info</Link>\n
           </Nav>

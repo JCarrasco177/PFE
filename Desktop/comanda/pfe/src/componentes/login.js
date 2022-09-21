@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/esm/Container';
 import Card from 'react-bootstrap/Card';
+import { Link } from "react-router-dom";
 function Login() {
   return (
     <Container style={{width:500}}>
@@ -23,6 +24,8 @@ function Login() {
                 <Button variant="primary" type="submit">
                 Acceso
                 </Button>
+                <Form.Label>no tiene usuario?. registrese aqui--</Form.Label>
+                <Link to="/registro">Registro</Link>
              </Form>
              </Card.Text>
       </Card.Body>
