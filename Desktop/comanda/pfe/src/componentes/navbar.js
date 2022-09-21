@@ -1,17 +1,17 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { Link } from "react-router-dom";
 function NavBarCustom() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Comanda</Navbar.Brand>
+        <Navbar.Brand href="#home">Comanda</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Ingresar</Nav.Link>
-            <Nav.Link href="#features">Registrar</Nav.Link>
-            <Nav.Link href="#pricing">Info</Nav.Link>
+          <Link to="/login">Login</Link>\n
+          <Link to="/about">About</Link>\n
+          <Link to="/info">Info</Link>\n
           </Nav>
         </Container>
       </Navbar>
