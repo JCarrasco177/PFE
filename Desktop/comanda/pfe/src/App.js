@@ -5,6 +5,7 @@ import Login from "./componentes/login";
 import Info from "./componentes/Info";
 import About from "./componentes/About";
 import Registro from "./componentes/Registro";
+import Dashboard from './componentes/Dashboard';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Route path="registro" element={<Registro />} />
       <Route path="about" element={<About />} />
       <Route path="info" element={<Info />} />
+      <Route path="dashboard" element={<Dashboard />} />
      </Routes>
      </>
     );

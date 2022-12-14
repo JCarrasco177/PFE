@@ -13,6 +13,7 @@ function NavBarCustom() {
           <Link to="/registro">Registro</Link>\n
           <Link to="/about">About</Link>\n
           <Link to="/info">Info</Link>\n
+          <Link to="/dashboard">Dashboard</Link>\n
           </Nav>
         </Container>
       </Navbar>
